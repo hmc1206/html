@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+<html lang="ko">
+<html>
+    <style>
+        .body{
+            line-height: 1.5;
+            font-family: 'NotoSans Regular','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif;
+            word-break: keep-all;
+        }
+        .box{
+        max-width: 1800px;
+        height: 60px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        }
+        .tit_logo{
+            cursor: pointer;
+            display: block;
+            overflow: hidden;
+            width: 66px;
+            height: 60px;
+            margin-top: 20px;
+            
+        }
+        .a{
+            background-repeat: no-repeat; 
+            color: #333;
+            text-decoration: none;
+        }
+        /*.logo{
+        display: block;
+        overflow: hidden;
+        height: 20px;
+        margin-top: 20px;
+        background: url(//t1.kakaocdn.net/kakaocorp/pw/logo_kakao.png) no-repeat 0 0;
+        text-indent: -9999px;
+        }*/
+        /*overflow: hidden;
+            margin:  auto;
+            margin-top: 20px;*/
+        .right-item{
+            display: flex;
+            margin-left: auto;
+            /* height: 70px;
+            border-bottom: 1px solid black; */
+            /*
+            display: inline-block;
+            vertical-align: middle;
+            word-break: keep-all;
+            font-size: 16px;
+            line-height: 1.5;
+            display: flex;
+            margin-left: auto;
+            color: #666;
+            line-height: 58px;
+            text-decoration: none;*/
+        }
+        .box-icon{
+            cursor: pointer;
+        }
+        .box-item{
+            cursor: pointer;
+            font-size: 16px;
+            margin-left: 10px;
+        }
+        .main_summary{
+            padding-left: 20px;
+            padding-right: 20px;
+            /* max-width: 1800px;
+            margin: 0 auto; */
+        }
+        .main_info{
+            float: left;
+            width: 33.33%;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        /* .비전{
+            /* padding-left: 100px;
+            padding-right: 40px;
+            margin: 0 auto;
+            width: 100px; 
+            height: 100px; */
+            /* width: auto; height: auto;
+            max-width: 2300px;
+            height: 640px;
+        } */ 
+    </style>
+   <head>
+    <meta charset="UTF-8"></meta>
+    <title>카카오</title>
+    <link rel="shortcut icon" href="./resources/favicon.ka.ico" type="image/x-icon">
+    <button class="btn_page btn_prev"><span class="ico_corp ico_prev">이전</span></button>
+   </head>
+<body>
+    <div class="box">
+    <h1 class="tit_logo">
+        <a href="file:///F:/HTML/kakaocorp.com.html" id="kakaoServiceLogo" class="link_kakao">
+            <span class="logo">kakao</span>
+        </a>
+        </h1>
+        <div class="right-item">
+            <div class="box-icon">카카오</div>
+            <div class="box-item">투자정보</div>
+            <div class="box-item">서비스</div>
+            <div class="box-item">쇼셜임팩트</div>
+            <div class="box-item">고객지원</div>
+            <div class="box-item">인재영입</div>
+    </div>
+    </div>
+    <img class="비전"src="비전.jpg"width="100%">
+    <ul>
+        <div class="main_summary">
+        <div class="main_info">
+        <h3 class="tit_main">PRESS RELEASE</h3>
+        <a href="/kakao/prChannel/pressReleasesView?boardIdx=10147" class="link_newsfeed">
+            <strong class="tit_newsfeed">
+                카카오엔터프라이즈, 한국은행과 인공지능 협력 MOU 체결
+            </strong>
+            <p class="desc_newsfeed">
+                - 인공지능 기술 활용해 한국은행 업무 인프라 고도화 지원- 경제 금융 분야 노하우와 인공지능 데이터 상호 공유[2020-06-23]<br>
+                카카오엔터프라이즈가 인공지능 기술로 한국은행의 업무 고도화를 돕는...
+            </p>
+        </a>
+        </div>
+        <div class="main_info">
+            <h3 class="tit_main">STOCK</h3>
+            <strong>실시간 주식 현재가</strong>
+            <span>273,500<span>원</span>
+            </span>
+        <div>
+            <span>변동없음</span>
+            <span>전일대비</span>
+            <span >1,000<span>원</span></span>
+        </div>
+        <span class="txt_date">2020-06-26 14:49:08</span>
+        </div>
+        <div class="main_info">
+        <h3 class="tit_info">PRIVACY POLICY</h3>
+        <a href="https://privacy.kakao.com/main?lang=ko" target="_blank" class="link_newsfeed">
+            <strong class="tit_newsfeed">카카오는 데이터의 연결과 보호의 균형을 위해<br>언제나 최선을 다 하겠습니다.</strong>
+        </a>
+        </div>
+    </div>
+
+        <a href="https://www.kakaocorp.com/service/KakaoTalk" class="link_newsfeed" }="">
+            <h3>SERVICE</h3>
+            <img src="./카카오 그림 1.jpg" class="img_thumb" alt="">
+            <strong ><br>언제 어디서나 무료로 간편하게! 사람과 세상, 그 이상을 연결하는 카카오톡</strong>
+            <p> 채팅은 물론 일정 관리, 송금,&nbsp;#검색&nbsp;등 다양한 기능을 제공하는 카카오톡은 우리의 생활을 보다 편리하게 만들어 주고 있습니다.<br> 카카오톡을 통해 세상의 정보와 즐길거리에 보다 가까이 ...</p>
+        </a>
+
+        <a href="https://tech.kakao.com" class="link_newsfeed" target="_blank" }="">
+            <h3>TECH</h3>
+            <img src="./카카오 그림2.jpg" class="img_thumb" alt="">
+            <strong><br>새로워진 kakao Tech를 소개합니다.</strong>
+            <p>기술 행사와 오픈소스, 후원, 채용 등 카카오의 기술 관련 종합적인 정보를 제공할 수 있도록 개편했습니다....</p>
+        </a>
+
+        <a href="http://blog.kakaocorp.co.kr/679" class="link_newsfeed" target="_blank" }="">
+            <h3>SOCIAL IMPACT</h3>
+            <img src="./카카오 그림 3.png" class="img_thumb" alt="">
+            <strong><br>세계 행복의 날 기념, 같이가치 ‘안녕하세요’ 캠페인을 소개합니다!</strong>
+            <p>'세계 행복의 날'이라는 기념일을 들어보신 적 있나요? 2012년 국제연합(UN)이 모든 사람들이 행복하게 살 수 있도록 전 세계가<br> 함께 노력하자는 취지로 매년 3월 20일을 '세계 ...</p>
+        </a>
+
+        <h2>서비스 이용정보</h2>
+        <div><a>이용약관<span class="ico_corp ico_arr"></span></a></html>
+        <div><a>위치기반서비스이용약관<span class="ico_corp ico_arr"></span></a></div>
+        <div><a>개인정보처리방침</strong><span class="ico_corp ico_arr"></span></a></div>
+        <div><a href="https://www.kakao.com/policy/oppolicy?lang=ko">운영정책</a></div>
+        <div><a>청소년보호정책<span class="ico_corp ico_arr"></span></a></div>
+        <div><a href="https://www.kakao.com/policy/right?lang=ko">권리침해신고안내</a></div>
+        <div><a>공지사항<span class="ico_corp ico_new">공지사항 새로운 업데이트가 있습니다 링크</span></div>
+            <span class="ico_corp ico_arr"></span>
+        </a>
+        <div><a href="/policy/cyberEthics/info">사이버윤리실</a>
+        <small>Copyright © <a href="https://www.kakaocorp.com/main" class="link_kakao">Kakao Corp.</a> All rights reserved.</small></div>
+    </ul>
+</body>
+</html>

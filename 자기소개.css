@@ -1,0 +1,80 @@
+.gallerylist {
+    max-width: 1200px;/*최대가로넚이*/
+    width: 100%;/*가로넓이 */
+    margin: 0 auto;/*block요소 외부간격*/
+}
+
+ul{font-size: 0;}/*폰트 크기*/
+
+ul > li {
+    display: inline-block;/*요소의 속성선언*/
+    vertical-align: top;/*lnline의 세로정렬*/
+    width: 33.3%;/*가로 크기*/
+}
+
+ul > li > a {
+    display: block;/*요소의 속성선언*/
+    width: auto;/*유동적인 가로값*/
+    text-decoration: none;/*밑줄 제거*/
+    margin: 5px;/*요소의 외부간격*/
+}
+
+ul > li > a .screen {
+    position: relative;/*레이어 속성값(기준)*/
+    overflow: hidden;/*외소외영역 가리기*/
+}
+
+ul > li > a .screen .top {
+    position: absolute; /*레이어속성값(위치)*/
+    bottom: 150%;/*relative아래로부터(위치)*/
+    left: 30px;/*relative왼쪽로부터(위치)*/
+    z-index: 2;/*포지션의 우선순위*/
+    color: #fff;/*폰트 색상*/
+    font-size: 26px;/*폰트 사이즈*/
+    font-weight: 900;/*폰트 두께*/
+    transition: all .35s;
+}
+
+ul > li > a .screen .bottom {
+    position: absolute; /*레이어속성값(위치)*/
+    top: 150%;/*relativednl로부터(위치)*/
+    left: 30px;/*relative왼쪽로부터(위치)*/
+    z-index: 2;/*포지션의 우선순위*/
+    color: #fff;/*폰트 색상*/
+    font-size: 12px;/*폰트 사이즈*/
+    transition: all .35s;
+}
+
+ul > li > a .screen img {
+    width: 100%;/*요소의 가로 넓이*/
+}
+
+/*하위 선택자: h3 요소는 ul 안에 하위로 속해있기 때문에 ul h3{스타일}로 선택할 수 있습니다.*/
+ul > li > a h3 {
+    font-size: 14px;/*폰트 크기*/
+    text-align: center;/*폰트 정렬*/
+    padding: 20px;/*안쪽 간격*/
+    color: #666;/*폰트 색상*/
+}
+
+ul > li > a:hover .top {bottom:52%}
+
+ul > li > a:hover .bottom {top:52%}
+
+ul > li > a .screen ::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0, 0, .5);
+    z-index: 1;
+    opacity: 0;
+    transition: all .35s;
+}
+
+ul > li > a:hover .screen::after {
+    opacity: 1;
+}
